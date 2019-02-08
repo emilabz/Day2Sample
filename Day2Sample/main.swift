@@ -10,3 +10,16 @@ import Foundation
 
 print("Hello, World!")
 
+var a:Bool
+var s:String = "Hello"
+var str = String()
+str = "Hello world"
+var p:String
+p = "call me"
+print(s,str,p);
+/*
+ if(true<false)
+ {
+  print("Thanks")
+ }
+*/
