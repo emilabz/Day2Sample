@@ -16,7 +16,13 @@ var str = String()
 str = "Hello world"
 var p:String
 p = "call me"
-print(s,str,p);
+print(s,str,p)
+print(s.count)
+print(str.description)
+print(str.lowercased())
+print(str.hasPrefix("Hello"))
+print(s.hasPrefix("Hello"))
+print(p.hasSuffix("me"))
 /*
  if(true<false)
  {
