@@ -29,3 +29,31 @@ print(p.hasSuffix("me"))
   print("Thanks")
  }
 */
+for c in str
+{
+    print(c)
+}
+
+//Types of Range
+//ClosedRange
+//PartialRangeFrom
+//PartialRangeUpTo
+var x = 5...10;
+for i in x
+{
+    print(i)
+}
+
+var y = ...50
+if(y.contains(-29))
+{
+    print("TRUE")
+}
+/*for i in y
+{
+    print(i)
+    if(i==20)
+    {
+        break;
+    }
+}*/
