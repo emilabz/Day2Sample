@@ -58,6 +58,7 @@ for i in y
     }
 }
 */
+/*
 //Arrays
 var a = [10,20,30,40,50]
 for i in a
@@ -88,3 +89,67 @@ print("C[0] contains ",c[0])
 var y = c[2...4]
 print(c)
 print(y)
+
+var a = [1,2,3,4,5]
+var b = [Int]()
+//var x = a[0...4]
+//print(b)
+//print(x)
+for i in a
+{
+    var t = 1;
+    for j in a
+    {
+        if(i != j)
+        {
+            t = t * j
+        }
+    }
+    b.append(t)
+}
+print(b);
+*/
+
+var s1 = Set<String>()
+s1.insert("Canada")
+s1.insert("USA")
+s1.insert("India")
+s1.insert("Russia")
+s1.insert("Brazil")
+s1.insert("China")
+print(s1)
+s1.insert("india")
+print(s1)
+
+//Dictionary
+
+var d = [1 : "Abc",
+         2 : "Hello"]
+print("Dictionary example")
+print(d)
+d[3] = "Hello World"
+print(d)
+
+var country = Dictionary<String,String>()
+country.updateValue("India", forKey: "IND")
+country.updateValue("China", forKey: "CHI")
+country.updateValue("Brazil", forKey: "BZL")
+country.updateValue("Mexico", forKey: "MXC")
+print(country)
+for i in country
+{
+    //print(i)
+    print(i.key,i.value)
+}
+for(k,v) in country
+{
+    print(k,v)
+}
+for(_,v) in country
+{
+    print(v)
+}
+for k in country.keys
+{
+    print(k)
+}
